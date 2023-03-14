@@ -1,0 +1,35 @@
+
+### API 1
+
+GET http://localhost:3000/movies/
+
+###
+
+GET http://localhost:3000/directors/
+
+### API 2
+
+POST http://localhost:3000/movies/
+Content-Type: application/json
+
+{
+    "directorId":6,
+    "movieName":"Jurasic Park",
+    "leadActor":"Jeff"
+}
+
+###
+
+GET http://localhost:3000/movies/13/
+
+### API 7
+
+GET http://localhost:3000/directors/13/movies/
+
+
+###
+DELETE http://localhost:3000/movies/122
+
+
+
+

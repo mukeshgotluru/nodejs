@@ -1,0 +1,24 @@
+POST http://localhost:3000/register
+Content-Type: application/json
+
+{
+    "username":"mukesh",
+    "name":"Mukesh Reddy",
+    "password": "kpml",
+    "gender":"male"
+}
+
+###
+
+POST http://localhost:3000/login 
+Content-Type: application/json
+
+{
+    "username":"JoeBiden",
+    "password":"biden@123"
+}
+
+### 
+GET http://localhost:3000/user/tweets/feed
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkpvZUJpZGVuIiwicGFzc3dvcmQiOiJiaWRlbkAxMjMiLCJpYXQiOjE2NzIwMzYzMzd9.ZB26DrsCif_MFRu35-BlVcTRtVMxZF_t-ixGG-tjQ7Q
+
